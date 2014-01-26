@@ -19,5 +19,7 @@ public interface TicTacToeView {
 
 	public void invalidTurnNotification(char stone);
 
+	public void validTurnNotification(char stone);
+
 	public void drawBoard(TicTacToeModel ticTacToeModel);
 }

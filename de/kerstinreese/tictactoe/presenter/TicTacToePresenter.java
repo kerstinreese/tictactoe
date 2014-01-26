@@ -51,7 +51,9 @@ public class TicTacToePresenter {
 
 			valid = ticTacToeModel.setStone(stone, coordinate);
 
-			if (!valid) {
+			if (valid) {
+				ticTacToeView.validTurnNotification(stone);
+			} else {
 				ticTacToeView.invalidTurnNotification(stone);
 			}
 		}

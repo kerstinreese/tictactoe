@@ -95,4 +95,10 @@ public class ConsoleView implements TicTacToeView {
 		System.out.println(ticTacToeModel.toString());
 	}
 
+	@Override
+	public void validTurnNotification(char stone) {
+		// TODO Auto-generated method stub
+
+	}
+
 }
